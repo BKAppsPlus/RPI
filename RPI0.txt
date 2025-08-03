@@ -7,6 +7,11 @@ sudo rpi-eeprom-config --edit
 vcgencmd bootloader_config
 
 
+https://github.com/pi-hosted/pi-hosted
+
+
 wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/install_portainer.sh | bash
 # to update portainer, run this command instead
 wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/update_portainer.sh | bash
+
+https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v3-arm64.json
